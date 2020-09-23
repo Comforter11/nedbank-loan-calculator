@@ -12,3 +12,11 @@ print('Total Repayment: ', total_repayment)
 print("Monthly Installment:", monthly_installment)
 print("Please go to the nearest Nedbank branch with your bank statement, ID and proof of residence.")
 
+if interest_rate < 7:
+    print("The interest rate is less than 7")
+if interest_rate > 24.5:
+    print("The interest rate is greater than to 24.5")
+
+if interest_rate >= 7 and interest_rate <= 24.5:
+    print("Total Repayment and Monthly Installment")
+
